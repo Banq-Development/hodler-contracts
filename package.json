@@ -1,0 +1,30 @@
+{
+  "name": "hodler_back",
+  "version": "0.1.0",
+  "description": "Hodler is the decentralized game to earn rewards for hodling.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache": "ganache-cli --quiet -e 100000000000000000000 -l 17592186044415 || echo ''",
+    "truffle-analyses": "truffle test ./test/Hodler_gas_analysis.js",
+    "truffle-test": "truffle test ./test/Hodler_test.js",
+    "truffle-compile": "truffle compile",
+    "compile": "yarn truffle-compile",
+    "test": "yarn ganache & yarn truffle-test",
+    "analyse_gas": "yarn ganache && yarn truffle-analyses"
+  },
+  "keywords": [
+    "ethereum",
+    "hodler",
+    "hedgehog"
+  ],
+  "author": "Banq Development",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.1.64",
+    "truffle-assertions": "^0.9.2"
+  }
+}
