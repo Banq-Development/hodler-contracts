@@ -2,7 +2,7 @@
 
 [![Actions Status](https://github.com/Banq-Development/hodler-contracts/workflows/Tests/badge.svg)](https://github.com/Banq-Development/hodler-contracts/actions)
 
-Core contract for Hodler, a decentralized game that rewards hodlers. For more info check the docs here.
+Core contract for Hodler, a decentralized game that rewards hodlers. For more info check the docs [here](https://docs.hodler.financial).
 
 ## Install Dependencies
 `yarn`
