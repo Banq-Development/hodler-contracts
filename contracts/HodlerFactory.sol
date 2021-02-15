@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity =0.7.4;
+pragma solidity =0.6.11;
 
 import './Hodler.sol';
 
@@ -29,7 +29,7 @@ contract HodlerFactory {
         _hodler.initialize(asset, 10**21, 80, 120);
         hodler[asset].push(address(_hodler));
         allHodlers.push(address(_hodler));
-        Create(address(_hodler), asset);
+	    Create(address(_hodler), asset);
         return address(_hodler);
     }
 }

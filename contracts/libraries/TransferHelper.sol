@@ -1,4 +1,4 @@
-pragma solidity =0.7.4;
+pragma solidity =0.6.11;
 
 // a library for performing overflow-safe math, courtesy of Uniswap (https://github.com/Uniswap/uniswap-lib)
 
